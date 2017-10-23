@@ -1,5 +1,7 @@
 package observatory
 
+//class provided by the instructor
+
 import scala.util.DynamicVariable
 
 class Signal[T](expr: => T) {
