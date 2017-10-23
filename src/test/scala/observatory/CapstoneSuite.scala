@@ -8,7 +8,5 @@ class CapstoneSuite
   extends ExtractionTest
     with VisualizationTest
     with InteractionTest
-    with ManipulationTest
-    with Visualization2Test
     with Interaction2Test
 
