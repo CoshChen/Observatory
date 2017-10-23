@@ -12,4 +12,4 @@ Course Site: https://www.coursera.org/learn/scala-capstone/home/welcome
 2. Calculate yearly average temperatures for each location and assign colors.
 3. Generate colored tiles by applying Web Mercator projection.
 
-Example:
+Example: year = 1975, zoom = 0, x = 0, y = 0
