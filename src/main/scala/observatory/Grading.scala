@@ -1,6 +1,6 @@
 package observatory
 
-//Grading setting provided by the instructor.
+// Grading setting provided by the instructor.
 
 object Grading {
 
