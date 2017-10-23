@@ -1,6 +1,6 @@
 package observatory
 
-//class provided by the instructor
+// class provided by the instructor
 
 import scala.util.DynamicVariable
 
