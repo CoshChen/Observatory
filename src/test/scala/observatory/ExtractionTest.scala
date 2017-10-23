@@ -14,24 +14,23 @@ trait ExtractionTest extends FunSuite {
   lazy val temps = Extraction.readTemperatures(temperaturesFile).persist()
   lazy val localTemps = Extraction.locateTemperatures(year, stationsFile, temperaturesFile)
   
-  //test("readStations"){
-  //  stations.show()
-  //  stations.printSchema()
-  //}
+  test("readStations"){
+    stations.show()
+    stations.printSchema()
+  }
   
-  //test("readTemperatures"){
-  //  temps.show()
-  //  temps.printSchema()
-  //}
+  test("readTemperatures"){
+    temps.show()
+    temps.printSchema()
+  }
   
   //May cause OOM
+  test("localTemps"){
+    localTemps.take(10).foreach(println)
+  }
   
-  //test("localTemps"){
-  //  localTemps.take(10).foreach(println)
-  //}
-  
-  //test("localYearlyAve"){
-  //  Extraction.locationYearlyAverageRecords(localTemps).take(10).foreach(println)
-  //}
+  test("localYearlyAve"){
+    Extraction.locationYearlyAverageRecords(localTemps).take(10).foreach(println)
+  }
   
 }
