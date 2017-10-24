@@ -24,3 +24,9 @@ Note that to avoid OOM, only 4% of the records (randomly selected) in 1975 are u
 * It contains stations.csv and temperature records from 1975 to 2015 with one csv file (about 40 MB) per year.
 * The stations.csv file contains one row per weather station with columns: STN identifier,	WBAN identifier,	Latitude,	Longitude. A weather station is uniquely identified by (STN identifier, WBAN identifier) and (Latitude,	Longitude) is the location of the station.
 * Each temperature file has the file name year.csv, e.g. 2015.csv. It contains columns: STN identifier,	WBAN identifier,	Month,	Day,	Temperature (in degrees Fahrenheit). Each row represents a temperature measured by the station (STN identifier, WBAN identifier) on a certain date (Month, Day).
+
+# Run and Test
+* cd to the project folder and run ```sbt``` 
+* To execute the main class and generate tile images: ```run``` 
+* To run tests: ```test``` 
+* To run the web applications: ```capstoneUI/fastOptJS``` and open the interaction2.html
