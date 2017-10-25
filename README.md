@@ -1,4 +1,4 @@
-# Coursera-FPinScala-Observatory
+# Coursera-Scala-Observatory
 
 This is the capstone project for the course "Functional Programming in Scala," a 5-course specialization by École Polytechnique Fédérale de Lausanne on Coursera.
 
